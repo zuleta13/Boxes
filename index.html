@@ -7,10 +7,38 @@
 	<meta name="description" content="Boxes - Find the size of the box you need to pack something.">
 	<meta name="author" content="Zuleta">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--CSS files-->
+	<link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
+<!--	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+	  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+	<link href="./resources/css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-
-
-
+	<!--Header-->
+	<header>
+		<h1>BOXES</h1>
+	</header>
+	
+	<!--Main Section-->
+	<main>
+		<!--Add Data Section-->
+		<div class="add-data">
+			<input class="add-data-item value val1">
+			<div class="add-data-item cross">X</div>
+			<input class="add-data-item value val2">
+			<div class="add-data-item cross">X</div>
+			<input class="add-data-item value val3">
+		</div>
+		<!--Process Data Button-->
+		<button class="add-button">Calculate</button>
+		<!--Return Data Section-->
+		<div class="return"></div>
+	</main>
+	
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+	<script src="./resources/js/main.js"></script>
 </body>
 </html>
