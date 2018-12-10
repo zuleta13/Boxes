@@ -5,9 +5,9 @@
 				var val3 = parseInt($(".val3").val());
 				
 				$(".return").html("");
+				$(".return").append("<p>"+ (val1+1) + "x" + (val2+1) + "x" + (val3+1) + "</p>");
 				$(".return").append("<p>" + val3 + " " + (val3+val2) + " " + (2*val3+val2) + " " + (2*val3+ 2*val2) + " " + (2*val3+ 2*val2 + 2) +  "</p>");
 				$(".return").append("<p>" + val3/2 + " " + (val1 + val3/2) + " " + (val3+val1) + "</p>");
 				$(".return").append("<p>" + (2*val3+ 2*val2 + 2)*(val3+val1)*0.05/1000 + "</p>");
 			});
-			
 		});
